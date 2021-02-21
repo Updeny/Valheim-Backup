@@ -2,9 +2,12 @@
 # Fill in global values to match your server ip, port, and credentials
 # SAVE_GAME_NAME is the name of your save world in Valheim
 # LOCAL_DIRECTORY is the name you would like to use for your local backup folder
-# If this script is located at 'C:\Users\temp\Documents\ValheimScript.py', then
-# backups will be stored in 'C:\Users\temp\Documents\<LOCAL_DIRECTORY>'
+# If this script is located at 'C:\Users\temp\Documents\Valheim-Backup\ValheimScript.py', then
+# backups will be stored in 'C:\Users\temp\Documents\Valheim-Backup\ValheimBackups'
 # BACKUP_TIME_SECONDS is the number of seconds between backups (default 600s = 10 mins)
+
+# TODO: read variables from config file
+#
 
 import os
 import time
@@ -17,7 +20,7 @@ PASSWORD = ''
 SERVER_IP = ''
 SERVER_PORT = ''
 SAVE_GAME_NAME = ''
-LOCAL_DIRECTORY = ''
+LOCAL_DIRECTORY = 'ValheimBackups'
 BACKUP_TIME_SECONDS = 600
 
 def main():
