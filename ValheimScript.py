@@ -7,7 +7,7 @@
 # BACKUP_TIME_SECONDS is the number of seconds between backups (default 600s = 10 mins)
 
 # TODO: read variables from config file
-#
+# TODO: fill out readme 
 
 import os
 import time
