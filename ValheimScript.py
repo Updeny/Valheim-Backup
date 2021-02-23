@@ -17,6 +17,7 @@ from datetime import datetime
 from contextlib import closing
 import urllib.request as request
 
+tz = timezone('EST')
 USERNAME = ''
 PASSWORD = ''
 SERVER_IP = ''
